@@ -23,6 +23,39 @@
 
 <body></body>
 
+<div>
+    <label for="DNA1">DNA sekvens nr. 1 </label>
+    <input type="text" id="DNA1" name="DNA1" value=""
+        placeholder="Der kan stå: A;T;C;G;-">
+<br>
+        <label for="DNA2">DNA sekvens nr. 2 </label>
+    <input type="text" id="DNA2" name="DNA2" value=""
+        placeholder="Der kan stå: A;T;C;G;-">
+<br>
+
+<button onclick="udregn()">Udregn</button>
+
+<br> <br>
+<label for="Protein1">Protein sekvens nr. 1 </label>
+<input type="text" id="Protein1" name="Protein1" value=""
+    placeholder="Der kan stå: A;R;N;D;C;E;Q;G;H;I;L;K;M;F;P;S;T;W;Y;V;-">
+<br>
+    <label for="Protein2">Protein sekvens nr. 2 </label>
+<input type="text" id="Protein2" name="Protein2" value=""
+    placeholder="Der kan stå: A;R;N;D;C;E;Q;G;H;I;L;K;M;F;P;S;T;W;Y;V;-">
+<br>
+
+<button onclick="udregn()">Udregn</button>
+
+<br>
+
+<p>Sekvenserne skal være lige lange</p>
+<!--Viser værdien for sammenligning på skærmen-->
+<p> Værdien for disse 2 DNA er: <span id="values"></span></p>
+<br>
+<p> Værdien for disse 2 proteiner er: <span id="valuesP"></span></p>
+</div>
+
 <!-- import the javascript library file(s) -->
 <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.min.js" crossorigin="anonymous"></script>
 
