@@ -16,45 +16,65 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            font-size: 3em;
+            border: solid black 2px;
         }
+
+input {
+    width: 98%;
+    height: 1em;
+    font-size: 0.5em;
+    padding: 0.25em;
+}
+
+button {
+    width: 100%;
+    height: 2em;
+    font-size: 1em;
+}
 
     </style>
 </head>
 
 <body></body>
 
-<div>
-    <label for="DNA1">DNA sekvens nr. 1 </label>
-    <input type="text" id="DNA1" name="DNA1" value=""
-        placeholder="Der kan stå: A,T,C,G og -">
-<br>
-        <label for="DNA2">DNA sekvens nr. 2 </label>
-    <input type="text" id="DNA2" name="DNA2" value=""
-        placeholder="Der kan stå: A,T,C,G og -">
-<br>
-
-<button onclick="udregn()">Udregn</button>
-
-<br> <br>
-<label for="Protein1">Protein sekvens nr. 1 </label>
-<input type="text" id="Protein1" name="Protein1" value=""
-    placeholder="Der kan stå: A,R,N,D,C,E,Q,G,H,I,L,K,M,F,P,S,T,W,Y,V og -">
-<br>
-    <label for="Protein2">Protein sekvens nr. 2 </label>
-<input type="text" id="Protein2" name="Protein2" value=""
-    placeholder="Der kan stå: A,R,N,D,C,E,Q,G,H,I,L,K,M,F,P,S,T,W,Y,V og -">
-<br>
-
-<button onclick="udregn()">Udregn</button>
-
-<br>
-
-<p>Sekvenserne skal være lige lange</p>
-<!--Viser værdien for sammenligning på skærmen-->
-<p> Værdien for disse 2 DNA er: <span id="values"></span></p>
-<br>
-<p> Værdien for disse 2 proteiner er: <span id="valuesP"></span></p>
+<div class="main">
+    <div>
+        <label for="DNA1">DNA sekvens nr. 1: <br> </label>
+        <input type="text" id="DNA1" name="DNA1" value=""
+            placeholder="Der kan stå: A,T,C,G og -">
+    <br>
+            <label for="DNA2">DNA sekvens nr. 2: <br> </label>
+        <input type="text" id="DNA2" name="DNA2" value=""
+            placeholder="Der kan stå: A,T,C,G og -">
+    <br>
+    
+    <button onclick="udregn()">Udregn</button>
+    
+    <br> <br>
+    <label for="Protein1">Protein sekvens nr. 1: <br> </label>
+    <input type="text" id="Protein1" name="Protein1" value=""
+        placeholder="Der kan stå: A,R,N,D,C,E,Q,G,H,I,L,K,M,F,P,S,T,W,Y,V og -">
+    <br>
+        <label for="Protein2">Protein sekvens nr. 2: <br> </label>
+    <input type="text" id="Protein2" name="Protein2" value=""
+        placeholder="Der kan stå: A,R,N,D,C,E,Q,G,H,I,L,K,M,F,P,S,T,W,Y,V og -">
+    <br>
+    
+    <button onclick="udregn()">Udregn</button>
+    
+    <br>
+    
+    <a>Sekvenserne skal være lige lange</a>
+    <br>
+    <!--Viser værdien for sammenligning på skærmen-->
+    <a> Værdien for disse 2 DNA er: <span id="values"></span></a>
+    <br>
+    <a> Værdien for disse 2 proteiner er: <span id="valuesP"></span></a>
+    </div>
 </div>
+
+
 
 <!-- import the javascript library file(s) -->
 <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.min.js" crossorigin="anonymous"></script>
