@@ -44,8 +44,8 @@ function draw() {//magien af js
   compare()
   console.log(values)
 
-  sequence1 = document.getElementById("Protein1").value
-  sequence2 = document.getElementById("Protein2").value
+  sequence1P = document.getElementById("Protein1").value
+  sequence2P = document.getElementById("Protein2").value
   TranslateP()
   valuesP = 0
   compareP()
