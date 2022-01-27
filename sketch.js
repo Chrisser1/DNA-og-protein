@@ -13,7 +13,7 @@ function calculateFill() { //Her indskrives de forskellige værdier der gives, h
   lookUp [lookUp.length] = -2; lookUp [lookUp.length] =  2; lookUp [lookUp.length] = -1; lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2;
   lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -1; lookUp [lookUp.length] =  2; lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2;
   lookUp [lookUp.length] = -1; lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2; lookUp [lookUp.length] =  2; lookUp [lookUp.length] = -2;
-  lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2;
+  lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2; lookUp [lookUp.length] =  0;
 }
 
 function udregn() {
@@ -59,10 +59,10 @@ const Contain = []
 
 
 function container(){
-  Contain [0] = 'A'
-  Contain [1] = 'T'
-  Contain [2] = 'C'
-  Contain [3] = 'G'
+  Contain [0] = 'a'
+  Contain [1] = 't'
+  Contain [2] = 'c'
+  Contain [3] = 'g'
   Contain [4] = '-'
 }
 
