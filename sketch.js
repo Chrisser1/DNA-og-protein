@@ -9,11 +9,12 @@ function calculateFill() { //Her indskrives de forskellige værdier der gives, h
 // C;-2;-1; 2;-2;-2;
 // G;-1;-2:-2; 2;-2;
 // -;-2;-2;-2;-2;
-  lookUp [lookUp.length] = 2 ; lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -1; lookUp [lookUp.length] = -2;
-  lookUp [lookUp.length] = -2; lookUp [lookUp.length] =  2; lookUp [lookUp.length] = -1; lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2;
-  lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -1; lookUp [lookUp.length] =  2; lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2;
-  lookUp [lookUp.length] = -1; lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2; lookUp [lookUp.length] =  2; lookUp [lookUp.length] = -2;
-  lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2; lookUp [lookUp.length] =  0;
+  lookUp [lookUp.length] = 2 ; lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -1; lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2;
+  lookUp [lookUp.length] = -2; lookUp [lookUp.length] =  2; lookUp [lookUp.length] = -1; lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2;
+  lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -1; lookUp [lookUp.length] =  2; lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2;
+  lookUp [lookUp.length] = -1; lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2; lookUp [lookUp.length] =  2; lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2;
+  lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2; lookUp [lookUp.length] =  0; lookUp [lookUp.length] =  0;
+  lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2; lookUp [lookUp.length] = -2; lookUp [lookUp.length] =  0; lookUp [lookUp.length] =  0;
 }
 
 function udregn() {
@@ -64,6 +65,7 @@ function container(){
   Contain [2] = 'C'
   Contain [3] = 'G'
   Contain [4] = '-'
+  Contain [5] = ' '
 }
 
 const lookUp = []
